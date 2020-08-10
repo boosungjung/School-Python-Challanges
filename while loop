@@ -1,0 +1,5 @@
+while True:
+    subject = input ('Do you love computer science? y/n')
+    if subject == "n" :
+        print("i dont like you")
+        break

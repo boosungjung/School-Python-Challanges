@@ -1,0 +1,33 @@
+import random
+cont="y"
+while cont=="y":
+    computer = random.randint(1,256)
+    test= input("binary or hex")
+    a=(bin(computer))
+    b=(hex(computer))
+    if test == ("binary"):
+        print(computer)
+        answer = input("what is it in binary pls write 0b then your answer PLS")
+        if answer == a:
+            print ("ur mom")
+            cont =+ 1
+        else:
+            print ("china")
+            cont =+ 1
+        cont=input("do you want to continue? y/n")
+        print("thank you for playing")
+
+    elif test == ("hex"):
+        print(computer)
+    answer1 = input("what is it in hex PLS PT 0x infront of answer")
+    if answer1 == b:
+        print ("your dad")
+    else:
+        print("daniel sun")
+    cont=input("do you want to continue? y/n")
+    print("thank you for playing")
+
+
+
+    
+

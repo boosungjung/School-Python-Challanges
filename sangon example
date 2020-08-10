@@ -1,0 +1,9 @@
+urName = input("What is ur name")
+length = len(urName)
+counter = 0
+while counter < length:
+    if urName[counter] == "a":
+        print ("a")
+    else:
+        print("b")
+    counter = counter + 1

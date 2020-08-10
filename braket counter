@@ -1,0 +1,23 @@
+while True:
+    def main(x):
+        print(x)
+        
+    def countVowels():
+        while True:
+            l = "("
+            r = ")"
+            count = 0
+            string = input("enter:")
+            length = len(string)
+            check = 0
+            while check < length:
+                if string[check] == l:
+                    count = count + 1
+                else:
+                    count = count - 1
+                check = check +1
+            return count
+
+
+    main(countVowels())
+

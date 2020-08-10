@@ -1,0 +1,48 @@
+print ("Welcome to quiz maker(5 questions)")
+q1 = input("Your first question?")
+ms1 = input("your answer?")
+q2 = input("your 2nd question?")
+ms2 = input("your anwser?")
+q3 = input("your 3rd question?")
+ms3 = input("your answer?")
+q4 = input("your 4th question?")
+ms4 = input("your answer?")
+q5 = input("your 5th question?")
+ms5 = input("your answer?")
+#space
+print ("question 1")
+print (q1)
+answer1 = input("what is your answer")
+if answer1 == ms1:
+    print ("correct")
+else:
+    print ("wrong")
+#space   
+print ("question 2")
+print (q2)
+answer2 = input("what is your answer?")
+if answer2 == ms2:
+    print("correct")
+else:
+    print("wrong")
+#space
+    print ("question 3")
+print (q3)
+answer3 = input("what is your answer?")
+if answer3 == ms3:
+    print("correct")
+else:
+    print("wrong")
+#space
+    print ("question 4")
+print (q3)
+answer4 = input("what is your answer?")
+if answer4 == ms4:
+    print("correct")
+else:
+    print("wrong")
+#space
+    
+    
+
+    

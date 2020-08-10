@@ -1,0 +1,16 @@
+import tkinter
+import random
+window = tkinter.Tk()
+
+def RandomNumber(): 
+    WORDS = ("jack", "james", "anthony", "lee", "bruce",  "wayne", "ryand","sangon","zinean","shanker",)
+    word = random.choice(WORDS)
+    dice_thrown.configure(text="your baby name: " + str(word))
+     
+MyTitle = tkinter.Label(window, text="Random Name Generator",font="Helvetica 16 bold") 
+MyTitle.pack() 
+
+MyButton = tkinter.Button(window, text="OK", command=RandomNumber)
+MyButton.pack()
+dice_thrown = tkinter.Label(window, font="Helvetica 16 bold") 
+dice_thrown.pack()

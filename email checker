@@ -1,0 +1,8 @@
+import re
+
+email = input("enter email")
+match = re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{0,9})$', email)
+
+if match == None:
+	print('Bad Syntax')
+	

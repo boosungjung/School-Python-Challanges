@@ -1,0 +1,10 @@
+test = input("Is it raining? y/n ")
+if test == ("y""Y"):
+    print("Oh dear, no football today!")
+
+print("ex2","allowing different yes")
+test = input("Is it raining? y/n ")
+if test == "y""Y""YES""yes""Yes":
+    print("Oh dear, no football today!")
+else:
+    print("Great lets play")

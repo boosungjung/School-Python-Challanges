@@ -1,0 +1,25 @@
+i=[]
+o=[]
+day=0
+while True:
+    if day == 3:
+        print(i,o)
+        quit()
+
+        
+    days=int(input("t"))
+    if days >100:
+        print ("err")
+    elif days < -100:
+        print("err")
+    else:
+        i.append(days)
+
+    night= int(input("n"))
+    if night > 100:
+        print("err")
+    elif night <-100:
+        print("err")
+    else:
+        o.append(night)
+        day +=1
